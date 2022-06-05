@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+@font-face{
+    font-family:'Monoton', cursive;
+    src: url("font/Monoton-Regular.ttf");
+}
+
+@font-face{
+    font-family:'Caveat', cursive; 
+    src: url("font/Caveat-VariableFont_wght.ttf");
+}
+#navbarNav{
+    color:antiquewhite ;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+#login-box{
+  position: relative;
+  margin: 5% auto;
+  width: 800px;
+  height: 600px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+  .left1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 400px;
+    height: 600px;
+    background: url("img/larry-james-baylas-Re1teu6Ekvo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 2px 2px 0;
+  }
+  .left2 {
+    position: block;
+    top: auto;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 400px;
+    height: 800px;
+    background: none;
+  }
+  .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 400px;
+    height: 600px;
+    background-color: powderblue;
+  }
+.kecil{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+#gtco-footer{
+  padding: 7em 0;
+  clear: both;
+  position: relative;
+  padding: 2em 0;
+}
+
+#gtco-footer .copyright {
+  color: #7c7a7a;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 3em;
+  margin-top: 3em;
+  border-top: 1px solid #f2f2f2;
+}
+@media screen and (max-width: 768px) {
+  #gtco-footer .copyright .pull-left,
+  #gtco-footer .copyright .pull-right {
+    float: none !important;
+    text-align: center;
+  }
+}
+#gtco-footer .copyright .block {
+  display: block;
+}
+.gtco-container {
+  max-width: 1100px;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#container-promo{
+  position: relative;
+  margin: 5% auto;
+  width: 1280px;
+  height: auto;
+  background: rgb(62, 108, 146);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.promo{
+  position: relative;
+  margin: 10% auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+.faqHeader{
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic bold 400;
+  font-size: 32px;
+  text-align: center;
+}
+.panel-heading{
+  background:rgb(113, 184, 250);
+
+}
+.panel-collapse{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: black;
+  background: #e9e7e7;
+}
+.panel-title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+}
